@@ -7,11 +7,11 @@ This simulation calculates the total communication energy and the energy efficie
 1. **Number of Users** (`num_users = 20`): 
 2. **Area Size** (`A = 10000 m^2`): 
     - Defines a 100 x 100 m^2 area in which the users are randomly located.
-3. **Transmission Power** (`Pt = 100e-3 mW`):
+3. **Transmission Power** (`Pt = 100e-3 W`):
 4. **Bandwidth** (`B = 2e6` Hz):
     - The available bandwidth for the communication is 2 MHz.
 5. **Noise Spectral Density** (`N0 = 1e-9` W/Hz):
-6. **Model Size** (`32 * 1e6`): 
+6. **Model Size** (`32 * 1e6 bits`): 
     - Assumes a model with parameters represented using 32 bits.
 7. **Server Position**:
     - Fixed at the center of the area (500, 500), ensuring a centralized setup for communication.
