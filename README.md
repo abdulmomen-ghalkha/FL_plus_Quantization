@@ -1,3 +1,15 @@
+<script type="text/x-mathjax-config">
+MathJax.Ajax.config.path["a11y"] = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/extensions/a11y";
+MathJax.Hub.Config({
+  // ...your other configuration options...
+  extensions: ["[a11y]/accessibility-menu.js"]
+  menuSettings: {
+    collapsible: true,
+    autocollapse: true,
+    explorer: true
+  }
+});
+</script>
 # Scenario Explanation: Comunicaton Energy Consumption for FL Training with Quantization
 
 
